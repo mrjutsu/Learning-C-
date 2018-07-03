@@ -1,0 +1,6 @@
+/Users/davidrosillo/c#/Learning-C-/fitness_frog/fitness_frog/bin/Debug/fitness_frog.exe
+/Users/davidrosillo/c#/Learning-C-/fitness_frog/fitness_frog/bin/Debug/fitness_frog.pdb
+/Users/davidrosillo/c#/Learning-C-/fitness_frog/fitness_frog/obj/x86/Debug/fitness_frog.csprojResolveAssemblyReference.cache
+/Users/davidrosillo/c#/Learning-C-/fitness_frog/fitness_frog/obj/x86/Debug/fitness_frog.csproj.CoreCompileInputs.cache
+/Users/davidrosillo/c#/Learning-C-/fitness_frog/fitness_frog/obj/x86/Debug/fitness_frog.exe
+/Users/davidrosillo/c#/Learning-C-/fitness_frog/fitness_frog/obj/x86/Debug/fitness_frog.pdb
