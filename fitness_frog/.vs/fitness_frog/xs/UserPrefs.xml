@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{3C2500DA-BB27-47FC-88B6-014080263257}|Default">
-  <MonoDevelop.Ide.ItemProperties.fitness__frog PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.fitness__frog PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="fitness_frog/Program.cs">
     <Files>
-      <File FileName="fitness_frog/Program.cs" Line="1" Column="1" />
+      <File FileName="fitness_frog/Program.cs" Line="12" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
