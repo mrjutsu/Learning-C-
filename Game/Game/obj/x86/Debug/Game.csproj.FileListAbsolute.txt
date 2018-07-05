@@ -1,0 +1,6 @@
+/Users/davidrosillo/c#/Learning-C-/Game/Game/obj/x86/Debug/Game.csprojResolveAssemblyReference.cache
+/Users/davidrosillo/c#/Learning-C-/Game/Game/obj/x86/Debug/Game.csproj.CoreCompileInputs.cache
+/Users/davidrosillo/c#/Learning-C-/Game/Game/bin/Debug/Game.exe
+/Users/davidrosillo/c#/Learning-C-/Game/Game/bin/Debug/Game.pdb
+/Users/davidrosillo/c#/Learning-C-/Game/Game/obj/x86/Debug/Game.exe
+/Users/davidrosillo/c#/Learning-C-/Game/Game/obj/x86/Debug/Game.pdb

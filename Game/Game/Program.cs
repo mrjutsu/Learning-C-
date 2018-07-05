@@ -6,11 +6,21 @@ namespace Game
     {
         public static void Main(string[] args)
         {
-            Tower tower = new Tower();
             Map map = new Map(8, 5);
 
-            Point point = new Point(4, 2);
-            bool isOnMap = map.OnMap(point);
+            Point x = new MapLocation(4, 2);
+
+            map.OnMap(new MapLocation(0, 0));
+
+            bool isOnMap = map.OnMap(x);
+
+            // Type checking
+            Console.WriteLine(x is MapLocation); // true
+            Console.WriteLine(x is Point); // true
+
+            Point point = new Point(0, 0);
+            // point is not a MapLocation
+            Console.WriteLine(point is MapLocation); // false
         }
     }
 }
