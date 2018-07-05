@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{E40E23C2-0117-4BE6-8846-7C8EC4638575}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Path.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Game/Program.cs" Line="9" Column="39" />
+      <File FileName="Game/Program.cs" Line="18" Column="40" />
       <File FileName="Game/Tower.cs" Line="8" Column="10" />
       <File FileName="Game/Invader.cs" Line="6" Column="25" />
-      <File FileName="Game/Map.cs" Line="1" Column="1" />
+      <File FileName="Game/Map.cs" Line="17" Column="88" />
       <File FileName="Game/Path.cs" Line="1" Column="1" />
+      <File FileName="Game/Point.cs" Line="19" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

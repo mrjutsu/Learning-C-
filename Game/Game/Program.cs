@@ -9,7 +9,8 @@ namespace Game
             Tower tower = new Tower();
             Map map = new Map(8, 5);
 
-            int area = map.Width * map.Height;
+            Point point = new Point(4, 2);
+            bool isOnMap = map.OnMap(point);
         }
     }
 }
