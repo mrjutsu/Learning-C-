@@ -40,12 +40,17 @@ namespace Game
                     }
                 );
 
+                Invader invader = new Invader();
+                MapLocation location = new MapLocation(0, 0, map);
+
                 // MapLocation mapLocation = new MapLocation(20, 20, map);
+                /*
                 MapLocation location = path.GetLocationAt(0);
                 if (location != null)
                 {
                     Console.WriteLine(location.X + "," + location.Y);
                 }
+                */
             }
             catch (OutOfBoundsException ex)
             {
