@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{E40E23C2-0117-4BE6-8846-7C8EC4638575}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/MapLocation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Exceptions.cs">
     <Files>
-      <File FileName="Game/Program.cs" Line="15" Column="20" />
+      <File FileName="Game/Program.cs" Line="34" Column="39" />
       <File FileName="Game/Tower.cs" Line="8" Column="10" />
       <File FileName="Game/Invader.cs" Line="6" Column="25" />
       <File FileName="Game/Map.cs" Line="17" Column="88" />
       <File FileName="Game/Path.cs" Line="1" Column="1" />
       <File FileName="Game/Point.cs" Line="22" Column="49" />
-      <File FileName="Game/MapLocation.cs" Line="4" Column="34" />
+      <File FileName="Game/MapLocation.cs" Line="11" Column="90" />
+      <File FileName="Game/Exceptions.cs" Line="5" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -16,5 +17,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Game PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Game PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
