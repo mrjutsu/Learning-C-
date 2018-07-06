@@ -27,6 +27,7 @@ namespace Game
         // public MapLocation Location { get; private set; }
 
         // Computed property
+        /*
         public MapLocation Location
         {
             get
@@ -34,6 +35,10 @@ namespace Game
                 return _path.GetLocationAt(_pathStep);
             }
         }
+        */
+
+
+        public MapLocation Location => _path.GetLocationAt(_pathStep);
 
         private int _pathStep = 0;
 
@@ -45,11 +50,14 @@ namespace Game
             // Location = _path.GetLocationAt(_pathStep);
         }
 
+        public void Move() => _pathStep += 1;
+        /*
         public void Move()
         {
             _pathStep += 1;
             // Location = _path.GetLocationAt(_pathStep);
         }
+        */
 
         // Getter and setter methods
         /*
