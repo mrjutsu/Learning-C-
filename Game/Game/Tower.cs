@@ -6,6 +6,9 @@ namespace Game
 
         private readonly MapLocation _location;
 
+        private const int _range = 1;
+        private const int _power = 1;
+
         public Tower(MapLocation location)
         {
             _location = location;
@@ -31,9 +34,9 @@ namespace Game
 
             foreach (Invader invader in invaders)
             {
-                if (invader.IsActive && _location.InRangeOf(invader.Location, 1))
+                if (invader.IsActive && _location.InRangeOf(invader.Location, _range))
                 {
-                    invader.DecreaseHealth(1);
+                    invader.DecreaseHealth(_power);
                     break;
                 }
             }
