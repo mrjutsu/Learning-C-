@@ -24,7 +24,16 @@ namespace Game
         */
 
         // Auto-property
-        public MapLocation Location { get; private set; }
+        // public MapLocation Location { get; private set; }
+
+        // Computed property
+        public MapLocation Location
+        {
+            get
+            {
+                return _path.GetLocationAt(_pathStep);
+            }
+        }
 
         private int _pathStep = 0;
 
@@ -33,13 +42,13 @@ namespace Game
         public Invader(Path path)
         {
             _path = path;
-            Location = _path.GetLocationAt(_pathStep);
+            // Location = _path.GetLocationAt(_pathStep);
         }
 
         public void Move()
         {
             _pathStep += 1;
-            Location = _path.GetLocationAt(_pathStep);
+            // Location = _path.GetLocationAt(_pathStep);
         }
 
         // Getter and setter methods
