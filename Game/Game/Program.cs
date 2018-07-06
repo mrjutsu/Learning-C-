@@ -40,7 +40,7 @@ namespace Game
                     }
                 );
 
-                Invader invader = new Invader();
+                Invader invader = new Invader(path);
                 MapLocation location = new MapLocation(0, 0, map);
 
                 // MapLocation mapLocation = new MapLocation(20, 20, map);
