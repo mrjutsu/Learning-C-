@@ -40,8 +40,30 @@ namespace Game
                     }
                 );
 
-                Invader invader = new Invader(path);
-                MapLocation location = new MapLocation(0, 0, map);
+                Invader[] invaders = {
+                    new Invader(path),
+                    new Invader(path),
+                    new Invader(path),
+                    new Invader(path)
+                };
+
+                Tower[] towers = {
+                    new Tower(new MapLocation(1,3,map)),
+                    new Tower(new MapLocation(3,3,map)),
+                    new Tower(new MapLocation(5,3,map))
+                };
+
+                Level level = new Level(invaders)
+                {
+                    Towers = towers
+                };
+
+                bool playerWon = level.Play();
+
+                Console.WriteLine("Player " + (playerWon ? " won!" : " lost!"));
+
+                // Invader invader = new Invader(path);
+                // MapLocation location = new MapLocation(0, 0, map);
 
                 // MapLocation mapLocation = new MapLocation(20, 20, map);
                 /*
