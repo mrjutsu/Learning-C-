@@ -43,6 +43,7 @@
     <Compile Include="Exceptions.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="ShieldedInvader.cs" />
+    <Compile Include="FastInvader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
