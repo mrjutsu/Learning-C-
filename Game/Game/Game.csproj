@@ -42,6 +42,7 @@
     <Compile Include="MapLocation.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="Level.cs" />
+    <Compile Include="ShieldedInvader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
