@@ -10,8 +10,6 @@ namespace Game
         protected virtual int Power { get; } = 1;
         protected virtual double Accuracy { get; } = .75;
 
-        private static readonly Random _random = new Random();
-
         public Tower(MapLocation location)
         {
             _location = location;
@@ -19,7 +17,7 @@ namespace Game
 
         public bool IsSuccessfulShot()
         {
-            return _random.NextDouble() < Accuracy;
+            return Random.NextDouble() < Accuracy;
         }
 
         public void FireOnInvaders(IInvader[] invaders)

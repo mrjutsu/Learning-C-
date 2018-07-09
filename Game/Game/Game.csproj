@@ -51,6 +51,7 @@
     <Compile Include="IInvader.cs" />
     <Compile Include="EmptyInterface.cs" />
     <Compile Include="ResurrectingInvader.cs" />
+    <Compile Include="Random.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
