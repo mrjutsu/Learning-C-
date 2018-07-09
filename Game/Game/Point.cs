@@ -26,5 +26,18 @@ namespace Game
         {
             return DistanceTo(point.X, point.Y);
         }
+
+
+        public override bool Equals(object obj)
+        {
+            if (!(obj is Point))
+            {
+                return false;
+            }
+
+            Point that = obj as Point;
+
+            return this.X == that.X && this.Y == that.Y;
+        }
     }
 }
