@@ -47,11 +47,12 @@ namespace Game
                     return;
                 }
 
-                Invader[] invaders = {
+                IInvader[] invaders = {
                     new FastInvader(path),
                     new BasicInvader(path),
                     new ShieldedInvader(path),
-                    new StrongInvader(path)
+                    new StrongInvader(path),
+                    new ResurrectingInvader(path)
                 };
 
                 Tower[] towers = {
