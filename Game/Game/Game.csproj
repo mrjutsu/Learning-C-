@@ -44,6 +44,9 @@
     <Compile Include="Level.cs" />
     <Compile Include="ShieldedInvader.cs" />
     <Compile Include="FastInvader.cs" />
+    <Compile Include="StrongInvader.cs" />
+    <Compile Include="SniperTower.cs" />
+    <Compile Include="LaserTower.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
