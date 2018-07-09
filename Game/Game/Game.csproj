@@ -48,6 +48,8 @@
     <Compile Include="SniperTower.cs" />
     <Compile Include="LaserTower.cs" />
     <Compile Include="BasicInvader.cs" />
+    <Compile Include="IInvader.cs" />
+    <Compile Include="EmptyInterface.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

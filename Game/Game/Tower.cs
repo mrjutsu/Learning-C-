@@ -22,7 +22,7 @@ namespace Game
             return _random.NextDouble() < Accuracy;
         }
 
-        public void FireOnInvaders(Invader[] invaders)
+        public void FireOnInvaders(IInvader[] invaders)
         {
             // int index = 0;
             /*
@@ -40,7 +40,7 @@ namespace Game
             }
             */
 
-            foreach (Invader invader in invaders)
+            foreach (IInvader invader in invaders)
             {
                 if (invader.IsActive && _location.InRangeOf(invader.Location, Range))
                 {

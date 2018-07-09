@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Game
 {
-    public abstract class Invader
+    public abstract class Invader : IInvader
     {
 
         /*
