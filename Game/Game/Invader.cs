@@ -44,7 +44,7 @@ namespace Game
         protected virtual int StepSize { get; } = 1;
 
         public MapLocation Location => _path.GetLocationAt(_pathStep);
-        public virtual int Health { get; protected set; } = 2;
+        public abstract int Health { get; protected set; }
         public bool HasScored { get { return _pathStep >= _path.Length; } }
         public bool IsNeutralized => Health <= 0;
         public bool IsActive => !(IsNeutralized || HasScored);
