@@ -1,16 +1,13 @@
 ﻿<Properties StartupConfiguration="{E40E23C2-0117-4BE6-8846-7C8EC4638575}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/MapLocation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/BasicInvader.cs">
     <Files>
-      <File FileName="Game/Program.cs" Line="47" Column="38" />
-      <File FileName="Game/Tower.cs" Line="11" Column="9" />
-      <File FileName="Game/Invader.cs" Line="60" Column="55" />
+      <File FileName="Game/Program.cs" Line="45" Column="18" />
+      <File FileName="Game/Tower.cs" Line="54" Column="97" />
+      <File FileName="Game/Invader.cs" Line="4" Column="27" />
       <File FileName="Game/ShieldedInvader.cs" Line="6" Column="54" />
-      <File FileName="Game/Path.cs" Line="8" Column="43" />
-      <File FileName="Game/Point.cs" Line="22" Column="49" />
-      <File FileName="Game/Level.cs" Line="24" Column="20" />
       <File FileName="Game/FastInvader.cs" Line="1" Column="1" />
       <File FileName="Game/StrongInvader.cs" Line="7" Column="64" />
-      <File FileName="Game/MapLocation.cs" Line="10" Column="14" />
+      <File FileName="Game/BasicInvader.cs" Line="4" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

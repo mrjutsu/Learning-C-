@@ -49,7 +49,7 @@ namespace Game
 
                 Invader[] invaders = {
                     new FastInvader(path),
-                    new Invader(path),
+                    new BasicInvader(path),
                     new ShieldedInvader(path),
                     new StrongInvader(path)
                 };
