@@ -34,6 +34,9 @@ namespace SoccerStats
                 Console.WriteLine("Name: " + player.FirstName + " PPG: " + player.PointsPerGame);
             }
 
+            fileName = Path.Combine(directory.FullName, "topten.json");
+            SerializePlayersToFile(topTenPlayers, fileName);
+
             //var fileContents = ReadFile(fileName);
             //string[] fileLines = fileContents.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
             //foreach (var line in fileLines)
@@ -148,6 +151,16 @@ namespace SoccerStats
                 }
             }
             return topTenPlayers;
+        }
+
+        public static void SerializePlayersToFile(List<Player> players, string fileName)
+        {
+            var serializer = new JsonSerializer();
+            using (var writer = new StreamWriter(fileName))
+            using (var jsonWriter = new JsonTextWriter(writer))
+            {
+                serializer.Serialize(jsonWriter, players);
+            }
         }
     }
 }
