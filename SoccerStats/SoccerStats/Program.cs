@@ -55,9 +55,17 @@ namespace SoccerStats
             using (var reader = new StreamReader(fileName))
             {
                 string line = "";
+                reader.ReadLine();
                 while ((line = reader.ReadLine()) != null)
                 {
+                    var gameResult = new GameResult();
                     string[] values = line.Split(',');
+                    //gameResult.GameDate = DateTime.Parse(values[0]);
+                    DateTime gameDate;
+                    if (DateTime.TryParse(values[0], out gameDate))
+                    {
+                        gameResult.GameDate = gameDate;
+                    }
                     SoccerResults.Add(values);
                 }
                 //Peek returns the index of the next line, if -1 there's no more lines
