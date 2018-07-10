@@ -13,3 +13,6 @@
 /Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.csproj.CoreCompileInputs.cache
 /Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.exe
 /Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.pdb
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/players.json
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/Newtonsoft.Json.dll
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/Newtonsoft.Json.xml

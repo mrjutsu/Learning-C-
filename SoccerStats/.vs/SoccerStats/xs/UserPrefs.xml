@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{C4FE20D6-86D5-4075-A919-99FBD88661E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerStats/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerStats/Player.cs">
     <Files>
-      <File FileName="SoccerStats/Program.cs" Line="71" Column="28" />
-      <File FileName="SoccerStats/data.txt" Line="1" Column="13" />
+      <File FileName="SoccerStats/Program.cs" Line="80" Column="63" />
+      <File FileName="SoccerStats/GameResult.cs" Line="19" Column="14" />
       <File FileName="SoccerStats/SoccerGameResults.csv" Line="11" Column="56" />
-      <File FileName="SoccerStats/GameResult.cs" Line="8" Column="51" />
+      <File FileName="SoccerStats/players.json" Line="8" Column="18" />
+      <File FileName="SoccerStats/Player.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

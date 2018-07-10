@@ -15,7 +15,7 @@ namespace SoccerStats
         {
             get
             {
-                return (double)Goals / GoalAttempts
+                return (double)Goals / GoalAttempts;
             }
         }
 
