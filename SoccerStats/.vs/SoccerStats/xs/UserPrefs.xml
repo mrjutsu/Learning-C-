@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C4FE20D6-86D5-4075-A919-99FBD88661E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerStats/SoccerGameResults.csv">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerStats/Program.cs">
     <Files>
-      <File FileName="SoccerStats/Program.cs" Line="28" Column="36" />
+      <File FileName="SoccerStats/Program.cs" Line="10" Column="43" />
       <File FileName="SoccerStats/data.txt" Line="1" Column="13" />
       <File FileName="SoccerStats/SoccerGameResults.csv" Line="11" Column="56" />
     </Files>
