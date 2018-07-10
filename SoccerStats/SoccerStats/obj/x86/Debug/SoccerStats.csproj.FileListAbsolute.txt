@@ -1,0 +1,15 @@
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/bin/Debug/data.txt
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/bin/Debug/SoccerStats.exe
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/bin/Debug/SoccerStats.pdb
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.csprojResolveAssemblyReference.cache
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.csproj.CoreCompileInputs.cache
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.exe
+/Users/davidrosillo/c#/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.pdb
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/data.txt
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/SoccerGameResults.csv
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/SoccerStats.exe
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/bin/Debug/SoccerStats.pdb
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.csprojResolveAssemblyReference.cache
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.csproj.CoreCompileInputs.cache
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.exe
+/Users/davidrosillo/c#/Learning-C-/SoccerStats/SoccerStats/obj/x86/Debug/SoccerStats.pdb

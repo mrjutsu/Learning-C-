@@ -2,16 +2,16 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Game/Random.cs">
     <Files>
       <File FileName="Game/Program.cs" Line="50" Column="40" />
-      <File FileName="Game/Tower.cs" Line="13" Column="63" />
+      <File FileName="Game/Tower.cs" Line="20" Column="51" />
       <File FileName="Game/Invader.cs" Line="4" Column="45" />
-      <File FileName="Game/ShieldedInvader.cs" Line="8" Column="63" />
+      <File FileName="Game/ShieldedInvader.cs" Line="15" Column="42" />
       <File FileName="Game/FastInvader.cs" Line="9" Column="63" />
       <File FileName="Game/StrongInvader.cs" Line="7" Column="64" />
       <File FileName="Game/BasicInvader.cs" Line="10" Column="10" />
       <File FileName="Game/IInvader.cs" Line="11" Column="21" />
       <File FileName="Game/Level.cs" Line="4" Column="23" />
       <File FileName="Game/ResurrectingInvader.cs" Line="12" Column="63" />
-      <File FileName="Game/Random.cs" Line="4" Column="13" />
+      <File FileName="Game/Random.cs" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
