@@ -40,6 +40,7 @@
     <Compile Include="GameResult.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerComparer.cs" />
+    <Compile Include="NewsSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data.txt">

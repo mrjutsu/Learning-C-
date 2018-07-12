@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net;
 using Newtonsoft.Json;
 
 namespace SoccerStats
@@ -28,14 +29,14 @@ namespace SoccerStats
             //    Console.WriteLine(player.FirstName);
             //}
 
-            var topTenPlayers = GetTopTenPlayers(players);
-            foreach (var player in topTenPlayers)
-            {
-                Console.WriteLine("Name: " + player.FirstName + " PPG: " + player.PointsPerGame);
-            }
+            //var topTenPlayers = GetTopTenPlayers(players);
+            //foreach (var player in topTenPlayers)
+            //{
+            //    Console.WriteLine("Name: " + player.FirstName + " PPG: " + player.PointsPerGame);
+            //}
 
-            fileName = Path.Combine(directory.FullName, "topten.json");
-            SerializePlayersToFile(topTenPlayers, fileName);
+            //fileName = Path.Combine(directory.FullName, "topten.json");
+            //SerializePlayersToFile(topTenPlayers, fileName);
 
             //var fileContents = ReadFile(fileName);
             //string[] fileLines = fileContents.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
@@ -56,6 +57,9 @@ namespace SoccerStats
             //    }
             //    Console.ReadLine();
             //}
+
+            //Console.WriteLine(GetGoogleHomePage());
+            //Console.WriteLine(GetNewsForPlayer("Dieog Valeri"));
         }
 
         public static string ReadFile(string fileName)
@@ -160,6 +164,36 @@ namespace SoccerStats
             using (var jsonWriter = new JsonTextWriter(writer))
             {
                 serializer.Serialize(jsonWriter, players);
+            }
+        }
+
+        public static string GetGoogleHomePage()
+        {
+            var webClient = new WebClient();
+            byte[] googleHome = webClient.DownloadData("https://www.google.com");
+
+            //Stream stream = new Stream();
+
+            using (var stream = new MemoryStream(googleHome))
+            using (var reader = new StreamReader(stream))
+            {
+                return reader.ReadToEnd();
+            }
+        }
+
+        public static string GetNewsForPlayer(string playerName)
+        {
+            var webClient = new WebClient();
+            webClient.Headers.Add("Header-Name", "Header-Value");
+            byte[] searchResults = webClient.DownloadData(string.Format("the/url/to/search?q={0}", playerName));
+            //byte[] searchResults = webClient.DownloadData("the/search/url");
+
+            //Stream stream = new Stream();
+
+            using (var stream = new MemoryStream(searchResults))
+            using (var reader = new StreamReader(stream))
+            {
+                return reader.ReadToEnd();
             }
         }
     }
