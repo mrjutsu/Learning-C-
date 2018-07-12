@@ -20,5 +20,7 @@ namespace SoccerStats
 
         [JsonProperty(PropertyName = "datePublished")]
         public DateTime DatePublished { get; set; }
+
+        public double SentimentScore { get; set; }
     }
 }

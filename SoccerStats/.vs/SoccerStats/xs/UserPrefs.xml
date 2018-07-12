@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{C4FE20D6-86D5-4075-A919-99FBD88661E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerStats/NewsSearch.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SoccerStats/Program.cs" Line="61" Column="52" />
+      <File FileName="SoccerStats/Program.cs" Line="256" Column="18" />
       <File FileName="SoccerStats/GameResult.cs" Line="18" Column="53" />
       <File FileName="SoccerStats/Player.cs" Line="31" Column="51" />
       <File FileName="SoccerStats/PlayerComparer.cs" Line="10" Column="68" />
+      <File FileName="SoccerStats/NewsSearch.cs" Line="24" Column="51" />
+      <File FileName="SoccerStats/SentimentRequest.cs" Line="22" Column="1" />
+      <File FileName="SoccerStats/SentimentResponse.cs" Line="19" Column="42" />
       <File FileName="SoccerStats/SoccerGameResults.csv" Line="11" Column="56" />
       <File FileName="SoccerStats/players.json" Line="3" Column="18" />
-      <File FileName="SoccerStats/NewsSearch.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
