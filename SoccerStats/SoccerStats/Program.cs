@@ -35,6 +35,17 @@ namespace SoccerStats
             //    Console.WriteLine("Name: " + player.FirstName + " PPG: " + player.PointsPerGame);
             //}
 
+            //var topTenPlayers = GetTopTenPlayers(players);
+            //foreach (var player in topTenPlayers)
+            //{
+            //    List<NewsResult> newsResults = GetNewsForPlayer(string.Format("{0} {1}", player.FirstName, player.SecondName));
+            //    foreach (var result in newsResults)
+            //    {
+            //        Console.WriteLine(string.Format("Date: {0:f}, Headline: {1}, Summary: {2} \r\n", result.DatePublished, result.Headline, result.Summary));
+            //        Console.ReadKey();
+            //    }
+            //}
+
             //fileName = Path.Combine(directory.FullName, "topten.json");
             //SerializePlayersToFile(topTenPlayers, fileName);
 
@@ -181,8 +192,10 @@ namespace SoccerStats
             }
         }
 
-        public static string GetNewsForPlayer(string playerName)
+        public static List<NewsResult> GetNewsForPlayer(string playerName)
         {
+            var results = new List<NewsResult>();
+
             var webClient = new WebClient();
             webClient.Headers.Add("Header-Name", "Header-Value");
             byte[] searchResults = webClient.DownloadData(string.Format("the/url/to/search?q={0}", playerName));
@@ -190,11 +203,16 @@ namespace SoccerStats
 
             //Stream stream = new Stream();
 
+            var serializer = new JsonSerializer();
+
             using (var stream = new MemoryStream(searchResults))
             using (var reader = new StreamReader(stream))
+            using (var jsonReader = new JsonTextReader(reader))
             {
-                return reader.ReadToEnd();
+                results = serializer.Deserialize<NewsSearch>(jsonReader).NewsResult;
+                //return reader.ReadToEnd();
             }
+            return results;
         }
     }
 }
