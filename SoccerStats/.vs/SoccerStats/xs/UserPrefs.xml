@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C4FE20D6-86D5-4075-A919-99FBD88661E5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerStats/Program.cs">
     <Files>
-      <File FileName="SoccerStats/Program.cs" Line="256" Column="18" />
+      <File FileName="SoccerStats/Program.cs" Line="203" Column="49" />
       <File FileName="SoccerStats/GameResult.cs" Line="18" Column="53" />
       <File FileName="SoccerStats/Player.cs" Line="31" Column="51" />
       <File FileName="SoccerStats/PlayerComparer.cs" Line="10" Column="68" />
