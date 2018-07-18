@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{5ECD6FF2-F54F-4F2C-90EB-4B075D1A3C20}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lists/Student.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lists/SchoolRoll.cs">
     <Files>
-      <File FileName="Lists/Program.cs" Line="8" Column="10" />
-      <File FileName="Lists/Student.cs" Line="5" Column="6" />
+      <File FileName="Lists/Program.cs" Line="18" Column="29" />
+      <File FileName="Lists/Student.cs" Line="16" Column="57" />
+      <File FileName="Lists/SchoolRoll.cs" Line="6" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

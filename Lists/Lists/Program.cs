@@ -15,21 +15,34 @@ namespace Lists
                 new Student() { Name = "Monica", GradeLevel = 6}
             };
 
-            students.Sort();
+            //students.Sort();
 
-            Student newStudent = new Student() { Name = "Joe", GradeLevel = 2 };
+            //Student newStudent = new Student() { Name = "Joe", GradeLevel = 2 };
 
-            int index = students.BinarySearch(newStudent);
+            //int index = students.BinarySearch(newStudent);
 
-            if (index < 0)
-            {
-                students.Insert(~index, newStudent);
-            }
+            //if (index < 0)
+            //{
+            //    students.Insert(~index, newStudent);
+            //}
 
-            foreach (Student student in students)
+            SchoolRoll schoolRoll = new SchoolRoll();
+            schoolRoll.AddStudents(students);
+
+            //schoolRoll.Students.RemoveAt(0);
+            //schoolRoll.Students.Sort();
+
+            //schoolRoll.Students.AddRange(students);
+
+            foreach (Student student in schoolRoll.Students)
             {
                 Console.WriteLine(student.Name + " is in grade " + student.GradeLevel);
             }
+
+            //foreach (Student student in students)
+            //{
+            //    Console.WriteLine(student.Name + " is in grade " + student.GradeLevel);
+            //}
         }
     }
 }
