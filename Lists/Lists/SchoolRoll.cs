@@ -5,13 +5,14 @@ namespace Lists
 {
     public class SchoolRoll
     {
-        private List<Student> _students = new List<Student>();
+        private HashSet<Student> _students = new HashSet<Student>();
 
         public IEnumerable<Student> Students { get { return _students; } }
 
         public void AddStudents(IEnumerable<Student> students)
         {
-            _students.AddRange(students);
+            _students.UnionWith(students);
+            //_students.AddRange(students);
         }
     }
 }

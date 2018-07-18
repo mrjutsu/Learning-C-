@@ -1,0 +1,6 @@
+/Users/davidrosillo/c#/Learning-C-/Lists/Lists/bin/Debug/Lists.exe
+/Users/davidrosillo/c#/Learning-C-/Lists/Lists/bin/Debug/Lists.pdb
+/Users/davidrosillo/c#/Learning-C-/Lists/Lists/obj/x86/Debug/Lists.csprojResolveAssemblyReference.cache
+/Users/davidrosillo/c#/Learning-C-/Lists/Lists/obj/x86/Debug/Lists.csproj.CoreCompileInputs.cache
+/Users/davidrosillo/c#/Learning-C-/Lists/Lists/obj/x86/Debug/Lists.exe
+/Users/davidrosillo/c#/Learning-C-/Lists/Lists/obj/x86/Debug/Lists.pdb
