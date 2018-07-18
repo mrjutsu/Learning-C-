@@ -1,0 +1,6 @@
+/Users/davidrosillo/c#/Learning-C-/MorseTranslator/MorseTranslator/bin/Debug/MorseTranslator.exe
+/Users/davidrosillo/c#/Learning-C-/MorseTranslator/MorseTranslator/bin/Debug/MorseTranslator.pdb
+/Users/davidrosillo/c#/Learning-C-/MorseTranslator/MorseTranslator/obj/x86/Debug/MorseTranslator.csprojResolveAssemblyReference.cache
+/Users/davidrosillo/c#/Learning-C-/MorseTranslator/MorseTranslator/obj/x86/Debug/MorseTranslator.csproj.CoreCompileInputs.cache
+/Users/davidrosillo/c#/Learning-C-/MorseTranslator/MorseTranslator/obj/x86/Debug/MorseTranslator.exe
+/Users/davidrosillo/c#/Learning-C-/MorseTranslator/MorseTranslator/obj/x86/Debug/MorseTranslator.pdb

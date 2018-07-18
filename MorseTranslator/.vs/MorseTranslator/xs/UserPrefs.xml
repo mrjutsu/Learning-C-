@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{55A7C43D-7518-4692-839C-C6AE78130B26}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MorseTranslator/MorseCodeTranslator.cs">
+    <Files>
+      <File FileName="MorseTranslator/Program.cs" Line="9" Column="13" />
+      <File FileName="MorseTranslator/MorseCodeTranslator.cs" Line="6" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MorseTranslator PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
